@@ -1,8 +1,7 @@
 $themes: (
-  default: (
-    "body-bg": #e5e5e5,
+  default: ("body-bg": #e5e5e5,
     "primary": #3ba5dc,
-    "secondary": #8392ab,
+    "secondary": #2c3e50,
     "success": #00f867,
     "info": #5d0149,
     "warning": #fbcf33,
@@ -11,8 +10,7 @@ $themes: (
     "dark": #111927,
     "grey": #cbcbcb,
   ),
-  dark: (
-    "body-bg": #090f18,
+  dark: ("body-bg": #090f18,
     "primary": #89e5b0,
     "secondary": #fff9a4,
     "success": #00f867,
@@ -40,3 +38,83 @@ $color-ranges: (
 $font-sans-serif: Open Sans;
 $font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $gradient: linear-gradient(180deg, hsla(0, 0%, 100%, 0.15), hsla(0, 0%, 100%, 0));
+
+// 
+// Borders
+// 
+
+$border-width: 0.125rem;
+$border-radius: 0.5rem;
+$border-radius-lg: 0.75rem;
+$border-radius-sm: 0.25rem;
+
+// 
+// Colors
+// 
+
+//- Override and add to color system
+$teal: #1abc9c;
+$dark-blue: #2c3e50;
+
+//- Override primary color
+$primary: $teal;
+$secondary: $dark-blue;
+
+// The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
+// See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+$min-contrast-ratio: 2.4;
+
+// 
+// Forms
+// 
+
+// Override variables for the Bootstrap floating forms component
+
+$form-floating-height: 5.5rem;
+$form-floating-padding-x: 0;
+$form-floating-padding-y: 1.5rem;
+$form-floating-input-padding-t: 2.5rem;
+$form-floating-input-padding-b: 1.5rem;
+$form-floating-label-transform: scale(.65) translateY(-.5rem) translateX(0rem);
+
+$input-btn-border-width: $border-width;
+
+// 
+// Spacing
+// 
+
+$navbar-height: 4.5rem;
+
+// 
+// Typography
+// 
+
+$font-family-sans-serif: "Lato",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  "Noto Sans",
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  'Noto Color Emoji';
+
+$headings-font-family: "Montserrat",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  "Noto Sans",
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  'Noto Color Emoji';
+
+$headings-font-weight: 700;

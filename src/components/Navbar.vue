@@ -1,31 +1,25 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
-    <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#" @click="scrollToTop()">KSquaredCoding</a>
+      <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded selectable"
+              @click="scrollToElement('portfolio')">Portfolio</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded selectable"
+              @click="scrollToElement('aboutMe')">About</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded selectable"
+              @click="scrollToElement('contact')">Contact</a>
+          </li>
+        </ul>
       </div>
-    </router-link>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarText"
-      aria-controls="navbarText"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto">
-        <li>
-          <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
-            About
-          </router-link>
-        </li>
-      </ul>
-      <!-- LOGIN COMPONENT HERE -->
-      <Login />
     </div>
   </nav>
 </template>
@@ -34,7 +28,24 @@
 import Login from './Login.vue'
 export default {
   setup() {
-    return {}
+    return {
+      scrollToTop() {
+        document.defaultView.scrollTo(0, 0)
+      },
+      scrollToElement(element) {
+        // debugger
+        let x = document.getElementById(element)
+        let top = x.offsetTop;
+        let scroll = window.scrollY
+        // if (scroll == top) {
+        //   console.log(`${scroll} is equal to ${top}`);
+        //   return
+        // } else if (scroll == 0) {
+        //   console.log(`scroll is at ${scroll} and top is ${top}`);
+        window.scrollTo(0, top)
+        // }
+      }
+    }
   },
   components: { Login }
 }
@@ -60,5 +71,4 @@ a:hover {
     height: 64px;
   }
 }
-
 </style>
