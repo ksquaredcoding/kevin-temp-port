@@ -17,7 +17,7 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src=".\assets\img\thetower-portfolio-img.PNG" alt="The Tower">
+              <img class="img-fluid rounded" src="/src\assets\img\thetower-portfolio-img.png" alt="The Tower">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
@@ -49,7 +49,7 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src="./assets/img\imgame-portfolio-img.PNG" alt="I'm Game">
+              <img class="img-fluid rounded" src="./assets/img\imgame-portfolio-img.png" alt="I'm Game">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
@@ -83,7 +83,7 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src="./assets/img\thenetwork-portfolio-img.PNG" alt="The Network">
+              <img class="img-fluid rounded" src="./assets/img/thenetwork-portfolio-img.png" alt="The Network">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
@@ -116,7 +116,7 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded keepr-img" src="./assets/img\keepr-portfolio-img.PNG" alt="keepr">
+              <img class="img-fluid rounded keepr-img" src="./assets/img\keepr-portfolio-img.png" alt="keepr">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
@@ -151,7 +151,7 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src="./assets/img\allspice-portfolio-img.PNG" alt="AllSpice">
+              <img class="img-fluid rounded" src="./assets/img\allspice-portfolio-img.png" alt="AllSpice">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
@@ -185,7 +185,7 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src="./assets/img\hackthon-portfolio-img.PNG" alt="Hackathon">
+              <img class="img-fluid rounded" src="./assets/img\hackthon-portfolio-img.png" alt="Hackathon">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">

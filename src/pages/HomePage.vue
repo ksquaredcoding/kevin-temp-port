@@ -2,7 +2,7 @@
   <section class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
       <!-- Masthead Avatar Image-->
-      <img class="masthead-avatar mb-5 rounded-circle" src="../assets/img/oldprofilepic.jpg" alt="Kevin Kelley" />
+      <img class="masthead-avatar mb-5 rounded-circle" src="/src/assets/img/oldprofilepic.jpg" alt="Kevin Kelley" />
       <!-- Masthead Heading-->
       <h1 class="masthead-heading text-uppercase mb-0">Kevin Kelley</h1>
       <!-- Icon Divider-->
@@ -34,7 +34,7 @@
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">Keepr</span></div>
             </div>
-            <img class="img-fluid" src="../assets/img/keepr-portfolio-img.PNG" alt="Keepr" />
+            <img class="img-fluid" src="/src/assets/img/keepr-portfolio-img.png" alt="Keepr" />
           </div>
         </div>
         <!-- Portfolio Item 2-->
@@ -44,7 +44,7 @@
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">I'm
                   Game</span></div>
             </div>
-            <img class="img-fluid" src="../assets/img\imgame-portfolio-img.PNG" alt="I'm Game" />
+            <img class="img-fluid" src="/src/assets/img\imgame-portfolio-img.png" alt="I'm Game" />
           </div>
         </div>
         <!-- Portfolio Item 3-->
@@ -54,7 +54,7 @@
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">The
                   Tower</span></div>
             </div>
-            <img class="img-fluid" src="../assets/img\thetower-portfolio-img.PNG" alt="The Tower" />
+            <img class="img-fluid" src="/src/assets/img\thetower-portfolio-img.png" alt="The Tower" />
           </div>
         </div>
         <!-- Portfolio Item 4-->
@@ -64,7 +64,7 @@
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">The
                   Network</span></div>
             </div>
-            <img class="img-fluid" src="../assets/img\thenetwork-portfolio-img.PNG" alt="The Network" />
+            <img class="img-fluid" src="/src/assets/img/thenetwork-portfolio-img.png" alt="The Network" />
           </div>
         </div>
         <!-- Portfolio Item 5-->
@@ -74,7 +74,7 @@
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">AllSpice</span>
               </div>
             </div>
-            <img class="img-fluid" src="../assets/img\allspice-portfolio-img.PNG" alt="AllSpice" />
+            <img class="img-fluid" src="../assets/img/allspice-portfolio-img.png" alt="AllSpice" />
           </div>
         </div>
         <!-- Portfolio Item 6-->
@@ -84,7 +84,7 @@
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">Hackathon</span>
               </div>
             </div>
-            <img class="img-fluid" src="../assets/img\hackthon-portfolio-img.PNG" alt="Hackathon" />
+            <img class="img-fluid" src="../assets/img/hackthon-portfolio-img.png" alt="Hackathon" />
           </div>
         </div>
       </div>
