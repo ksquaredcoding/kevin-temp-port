@@ -117,7 +117,8 @@
       </div>
       <!-- About Section Button-->
       <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light text-shad" target="_blank" href="https://github.com/ksquaredcoding">
+        <a class="btn btn-xl btn-outline-light text-shad" target="_blank" href="https://github.com/ksquaredcoding"
+          title="View my GitHub page">
           <i class="bi bi-github"></i>
           My GitHub
         </a>
