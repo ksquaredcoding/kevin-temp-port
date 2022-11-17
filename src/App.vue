@@ -17,11 +17,12 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src="/src\assets\img\thetower-portfolio-img.png" alt="The Tower">
+              <img class="img-fluid rounded" src="/src\assets\img\thetower-portfolio-img.png"
+                alt="The Tower project preview">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
-                <h2>The Tower</h2>
+                <h3>The Tower</h3>
               </div>
               <div class="px-2 mx-2">
                 <p>The Tower was our first solo full stack application we made. Tower lets you create,
@@ -29,11 +30,12 @@
                   full and so on. We used Vue and NodeJS for this project.
                 </p>
               </div>
-              <div class="text-center">
-                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/The-Tower"
-                  role="button">
+              <div class="d-flex justify-content-evenly">
+                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/The-Tower">
                   <i class="bi bi-github"></i> GitHub Repo
                 </a>
+                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close <i
+                    class="bi bi-x"></i></button>
               </div>
             </div>
           </div>
@@ -49,11 +51,11 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src="./assets/img\imgame-portfolio-img.png" alt="I'm Game">
+              <img class="img-fluid rounded" src="./assets/img\imgame-portfolio-img.png" alt="I'm Game project preview">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
-                <h2>I'm Game</h2>
+                <h3>I'm Game</h3>
               </div>
               <div class="px-2 mx-2">
                 <p>I'm Game was my group's capstone project at Boise Codeworks. I worked within a group
@@ -63,11 +65,12 @@
                   you schedule group game nights.
                 </p>
               </div>
-              <div class="text-center">
-                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/im-game"
-                  role="button">
+              <div class="d-flex justify-content-evenly">
+                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/im-game">
                   <i class="bi bi-github"></i> GitHub Repo
                 </a>
+                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close <i
+                    class="bi bi-x"></i></button>
               </div>
             </div>
           </div>
@@ -83,11 +86,12 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src="./assets/img/thenetwork-portfolio-img.png" alt="The Network">
+              <img class="img-fluid rounded" src="./assets/img/thenetwork-portfolio-img.png"
+                alt="The Network project preview">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
-                <h2>The Network</h2>
+                <h3>The Network</h3>
               </div>
               <div class="px-2 mx-2">
                 <p>The Network was a project to help us learn styling in vue as well as how to connect
@@ -97,11 +101,12 @@
                   navigate to their profile.
                 </p>
               </div>
-              <div class="text-center">
-                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/the-network"
-                  role="button">
+              <div class="d-flex justify-content-evenly">
+                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/the-network">
                   <i class="bi bi-github"></i> GitHub Repo
                 </a>
+                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close <i
+                    class="bi bi-x"></i></button>
               </div>
             </div>
           </div>
@@ -116,11 +121,12 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded keepr-img" src="./assets/img\keepr-portfolio-img.png" alt="keepr">
+              <img class="img-fluid rounded keepr-img" src="./assets/img\keepr-portfolio-img.png"
+                alt="keeper project preview">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
-                <h2>Keepr</h2>
+                <h3>Keepr</h3>
               </div>
               <div class="px-2 mx-2">
                 <p>Keepr was the final project during my time at Boise Codeworks.
@@ -131,11 +137,12 @@
                   project was created with Vue for the front end, and C#/MySQL for the back end.
                 </p>
               </div>
-              <div class="text-center">
-                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/keepr"
-                  role="button">
+              <div class="d-flex justify-content-evenly">
+                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/keepr">
                   <i class="bi bi-github"></i> GitHub Repo
                 </a>
+                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close <i
+                    class="bi bi-x"></i></button>
               </div>
             </div>
           </div>
@@ -151,11 +158,12 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src="./assets/img\allspice-portfolio-img.png" alt="AllSpice">
+              <img class="img-fluid rounded" src="./assets/img\allspice-portfolio-img.png"
+                alt="AllSpice project preview">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
-                <h2>AllSpice</h2>
+                <h3>AllSpice</h3>
               </div>
               <div class="px-2 mx-2">
                 <p>AllSpice was the predecessor to our final for our course at Boise Codeworks. Our
@@ -165,11 +173,12 @@
                   throughout the creation of Keepr.
                 </p>
               </div>
-              <div class="text-center">
-                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/AllSpiceSharp"
-                  role="button">
+              <div class="d-flex justify-content-evenly">
+                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/AllSpiceSharp">
                   <i class="bi bi-github"></i> GitHub Repo
                 </a>
+                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close <i
+                    class="bi bi-x"></i></button>
               </div>
             </div>
           </div>
@@ -185,11 +194,12 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-lg-6 mb-2">
-              <img class="img-fluid rounded" src="./assets/img\hackthon-portfolio-img.png" alt="Hackathon">
+              <img class="img-fluid rounded" src="./assets/img\hackthon-portfolio-img.png"
+                alt="Hackathon project preview">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-between">
               <div class="text-center">
-                <h2>Hackathon</h2>
+                <h3>Hackathon</h3>
               </div>
               <div class="px-2 mx-2">
                 <p>The Meme-ing of Life was my first group project we made in one day during a hackthon.
@@ -198,11 +208,12 @@
                   the back end. You can create, react to, and comment on memes from different users.
                 </p>
               </div>
-              <div class="text-center">
-                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/hackathon-1"
-                  role="button">
+              <div class="d-flex justify-content-evenly">
+                <a class="btn btn-secondary" target="_blank" href="https://github.com/ksquaredcoding/hackathon-1">
                   <i class="bi bi-github"></i> GitHub Repo
                 </a>
+                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close <i
+                    class="bi bi-x"></i></button>
               </div>
             </div>
           </div>

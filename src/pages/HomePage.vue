@@ -29,62 +29,63 @@
       <!-- Portfolio Grid Items-->
       <div class="row justify-content-center">
         <!-- Portfolio Item 1-->
-        <div class="col-md-6 col-lg-4 mb-5">
+        <div class="col-md-6 col-lg-4 mb-5" title="View Keeper Project Info">
           <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#keeprModal">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">Keepr</span></div>
             </div>
-            <img class="img-fluid" src="/src/assets/img/keepr-portfolio-img.png" alt="Keepr" />
+            <img class="img-fluid" src="/src/assets/img/keepr-portfolio-img.png" alt="Keeper project preview" />
           </div>
         </div>
         <!-- Portfolio Item 2-->
-        <div class="col-md-6 col-lg-4 mb-5">
+        <div class="col-md-6 col-lg-4 mb-5" title="View I'm Game Project Info">
           <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#imgameModal">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">I'm
                   Game</span></div>
             </div>
-            <img class="img-fluid" src="/src/assets/img\imgame-portfolio-img.png" alt="I'm Game" />
+            <img class="img-fluid" src="/src/assets/img\imgame-portfolio-img.png" alt="I'm Game project preview" />
           </div>
         </div>
         <!-- Portfolio Item 3-->
-        <div class="col-md-6 col-lg-4 mb-5">
+        <div class="col-md-6 col-lg-4 mb-5" title="View The Tower Project Info">
           <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#thetowerModal">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">The
                   Tower</span></div>
             </div>
-            <img class="img-fluid" src="/src/assets/img\thetower-portfolio-img.png" alt="The Tower" />
+            <img class="img-fluid" src="/src/assets/img\thetower-portfolio-img.png" alt="The Tower project preview" />
           </div>
         </div>
         <!-- Portfolio Item 4-->
-        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" title="View The Network Project Info">
           <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#thenetworkModal">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">The
                   Network</span></div>
             </div>
-            <img class="img-fluid" src="/src/assets/img/thenetwork-portfolio-img.png" alt="The Network" />
+            <img class="img-fluid" src="/src/assets/img/thenetwork-portfolio-img.png"
+              alt="The Network project preview" />
           </div>
         </div>
         <!-- Portfolio Item 5-->
-        <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+        <div class="col-md-6 col-lg-4 mb-5 mb-md-0" title="View AllSpice Project Info">
           <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#allspiceModal">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">AllSpice</span>
               </div>
             </div>
-            <img class="img-fluid" src="../assets/img/allspice-portfolio-img.png" alt="AllSpice" />
+            <img class="img-fluid" src="../assets/img/allspice-portfolio-img.png" alt="AllSpice project preview" />
           </div>
         </div>
         <!-- Portfolio Item 6-->
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4" title="View Hackathon Project Info">
           <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#hackathonModal">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><span class="fa-3x">Hackathon</span>
               </div>
             </div>
-            <img class="img-fluid" src="../assets/img/hackthon-portfolio-img.png" alt="Hackathon" />
+            <img class="img-fluid" src="../assets/img/hackthon-portfolio-img.png" alt="Hackathon project preview" />
           </div>
         </div>
       </div>
@@ -104,19 +105,19 @@
       <!-- About Section Content-->
       <div class="row">
         <div class="col-lg-4 ms-auto">
-          <p class="lead">I recently completed 13 weeks with Boise Codeworks learning full stack web
+          <p class="lead text-shad">I recently completed 13 weeks with Boise Codeworks learning full stack web
             development. During this time I learned how to create Single Page Applications using Vue for the
             front end and C#/MySQL or NodeJS/MongoDB for the back end.</p>
         </div>
         <div class="col-lg-4 me-auto">
-          <p class="lead">I am looking to continue growing my knowledge and skills as a developer. Whether
+          <p class="lead text-shad">I am looking to continue growing my knowledge and skills as a developer. Whether
             learning new frameworks, programming languages, or core concepts. and I am hoping to find a job
             environment that allows me to thrive and grow moving forward!</p>
         </div>
       </div>
       <!-- About Section Button-->
       <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" target="_blank" href="https://github.com/ksquaredcoding">
+        <a class="btn btn-xl btn-outline-light text-shad" target="_blank" href="https://github.com/ksquaredcoding">
           <i class="bi bi-github"></i>
           My GitHub
         </a>
@@ -137,7 +138,7 @@
       <!-- Contact Section Form-->
       <div class="row justify-content-center">
         <div class="col-6 d-flex justify-content-center">
-          <a class="btn btn-primary" href="mailto:ksquaredcoding@gmail.com" target="_blank" role="button">
+          <a class="btn btn-primary text-shad" href="mailto:ksquaredcoding@gmail.com" target="_blank">
             <i class="bi bi-envelope-fill"></i> Email Me
           </a>
         </div>

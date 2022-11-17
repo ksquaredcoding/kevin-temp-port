@@ -202,3 +202,19 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+button {
+  text-shadow: 0px 0px 4px rgba(44, 44, 44, 0.616);
+  letter-spacing: 0.05em;
+}
+
+.text-shad {
+  text-shadow: 0px 0px 4px rgba(44, 44, 44, 0.616);
+  letter-spacing: 0.05em;
+}
